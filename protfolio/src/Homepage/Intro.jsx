@@ -32,7 +32,7 @@ export default function Intro() {
                     now, I am a developer of a published game that has more than one thousand downloads from all over the world.</p>
                     <h1 style={{color: '#939393'}}>Personal Goals</h1>
                     <p style={{fontStyle: "italic", color: '#626262'}}>My only intention right now is to get better as a developer. Getting an actual internship would help me be a strong candidate. In the future, 
-                    I see myself as a respective developer who helps the world to be in a better place.r.</p>
+                    I see myself as a respective developer who helps the world to be in a better place.</p>
                 </Col>
 
             </Row>
@@ -43,7 +43,7 @@ export default function Intro() {
                         <h4 style={{color: '#ABABAB'}} className="text-center">Grand Mining</h4>
                         <Image src={gmImage} rounded className="img-fluid"/>
                     </a>
-                    <p style={{backgroundColor: '#0A0A0A', color: '#6c782e', padding:10, marginTop: 20}}>Developed and published a match-3 mobile game on the play store with features including a slot machine, virtual currency, in-app purchases, and time-based rewards. It received more than 1000 downloads from all over the world and achieved 4+ reviews from so many players. Along with this development, I gained two years of Unity and C# experience</p>
+                    <p style={{backgroundColor: '#0A0A0A', color: '#6c782e', padding:10, marginTop: 20}}>Developed and published a match-3 mobile game on the play store with features including a slot machine, virtual currency, in-app purchases, and time-based rewards. It received more than 1000 downloads from all over the world and achieved 4+ reviews from so many players. Along with this development, I gained two years of Unity and C# experience.</p>
                 </Col>
                 <Col xl={6} lg={6} sm={6} xs={12} className="bg-black text-break" style={{}}>
                     <a className='text-decoration-none' href="https://github.com/fahim916/CombatGameJava.git">
