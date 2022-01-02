@@ -9,7 +9,7 @@ export default function NavBar() {
         <div style={changeFont}>
             <Navbar collapseOnSelect expand="md" style={{backgroundColor: "#DCDCDC"}} variant="light" Divider fixed="top">
                 <div className="container">
-                    <Navbar.Brand href="#home">Fahim Ashad</Navbar.Brand>
+                    <Navbar.Brand href="https://fahimashad.com/">Fahim Ashad</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="">
                         <Nav >
