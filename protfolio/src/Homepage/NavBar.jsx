@@ -6,25 +6,24 @@ export default function NavBar() {
         fontFamily: 'Open Sans'
     };
     return (
-        <div  style={changeFont}>
+        <div style={changeFont}>
             <Navbar collapseOnSelect expand="md" style={{backgroundColor: "#DCDCDC"}} variant="light" Divider fixed="top">
                 <div className="container">
                     <Navbar.Brand href="#home">Fahim Ashad</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+                    <Navbar.Collapse id="responsive-navbar-nav" className="">
                         <Nav >
                             <NavDropdown title="Projects" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="#grand-mining">Grand Mining</NavDropdown.Item>
+                                <NavDropdown.Item href="https://github.com/fahim916/GrandMining.git">Grand Mining</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#combat-game">Combat Game</NavDropdown.Item>
+                                <NavDropdown.Item href="https://github.com/fahim916/CombatGameJava.git">Combat Game</NavDropdown.Item>
+                                <NavDropdown.Divider />
+                                <NavDropdown.Item href="https://github.com/fahim916/PortfolioWebsiteReact.git">Portfolio Website</NavDropdown.Item>
+                                <NavDropdown.Divider />
+                                <NavDropdown.Item href="https://github.com/fahim916/ReviewWebsite.git">Review Website</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
-                        <Nav>
-                            <Nav.Link href="#testimonials">Testimonials</Nav.Link>
-                            <Nav.Link eventKey={2} href="#contact">
-                                Contact
-                            </Nav.Link>
-                        </Nav>
+                    
                     </Navbar.Collapse>
                 </div>
             </Navbar>
